@@ -1,0 +1,131 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.logo {
+  display:flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.text-content {
+  text-align: center;
+  background-color: black;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.month {
+  width: 1000px;
+}
+
+.tea-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea {
+  height: 265px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.tea-text-content {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 500px;
+}
+
+.locations-text-content {
+  text-align: center;
+}
+
+.locations-title{
+  text-align: center;
+  width: 100%;
+}
+
+.item {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  margin:5px 20px;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  opacity: 1.0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+}
+
+.copyright {
+  align: left;
+  padding-left: 20px;
+  margin: 10px;
+}
